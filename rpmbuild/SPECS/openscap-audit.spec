@@ -6,7 +6,7 @@ Summary: OpenScap audit files and execution script for RHEL 7
 Group: Development/Tools
 License: GNU General Public License Version 3
 #Source: %{name}-%{version}.tar.gz
-Source0: http://drive.google.com/uc?export=download&id=0BzEgKbRo-rHLTGdtYTY4NjNkOWc
+Source0: http://tuxcursos.com/webas/wp-content/uploads/2018/07/openscap-audit-1.2.0.tar.gz
 Packager: Ricardo Carrillo <ricardo.carrillo@ine.mx> <dominus.ceo@gmail.com>
 Vendor: OpenInsecure(IT) TuxCursos.CoM
 URL: https://www.gnu.org/licenses/gpl-3.0.html
@@ -110,7 +110,7 @@ install -m 700 world-writable-files.sh %{buildroot}/usr/share/benchmark/RHEL7/ar
 popd
 popd
 %files
-%doc 
+%doc
 %dir %attr(0700,root,root) /usr/share/benchmark/RHEL7
 %dir %attr(0700,root,root) /usr/share/benchmark/RHEL7/archivos
 %dir %attr(-,root,root) /usr/share/benchmark/RHEL7
